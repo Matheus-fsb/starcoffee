@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Jockey+One&display=swap');
+
+* {
+    font-family: 'Jockey One', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+#navBar {
+    background-color: rgba(255, 240, 191, 1);
+    display: flex;
+    align-items: center;
+    padding: 0;
+    position: relative;
+    height: 120px;
+}
+
+#navBar img {
+    width: 100px;
+    margin: 10px 20px;
+}
+
+#navBar .div1 {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+#navBar .div1 ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+#navBar .div1 li {
+    color: rgba(74, 46, 44, 1);
+    font-size: 23px;
+    margin: 0 10px;
+    cursor: pointer;
+    margin: 0px 30px 0px 30px;
+}
+
+#navBar .div1 li:hover {
+    color: red;
+}
+
+#navBar .div2{
+    background-color: rgba(111, 81, 58, 1);
+    height: 100%;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#navBar .div2 img{
+    width: 80px;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+#navBar .div2 p{
+    color: rgba(255, 240, 191, 1);
+    font-size: 20px;
+}
+
+#navBar .div3{
+    height: 100%;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#navBar .div3 button{
+    font-size: 20px;
+    background-color: rgba(255, 240, 191, 1);
+    border: solid 3px;
+    border-radius: 50px;
+    width: 80px;
+}
