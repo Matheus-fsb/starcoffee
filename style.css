@@ -2,10 +2,15 @@
 
 * {
     font-family: 'Jockey One', sans-serif;
+    user-select: none;
 }
 
 body {
     margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('./imagens/background.png');
+    background-size: cover;
 }
 
 #navBar {
@@ -83,3 +88,86 @@ body {
     border-radius: 50px;
     width: 80px;
 }
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 83.75vh;
+}
+
+main .texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+main .texto h1{
+    margin: 0px;
+}
+
+main .texto .de{
+    display: flex;
+    flex-direction: row;
+}
+
+main .texto .de img{
+    width: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+main .hand{
+    margin: 0px;
+    width: 33.3vw;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+main .hand img{
+    height: 83.1vh;
+}
+
+.cafes{
+    width: 400px;
+}
+
+main .sample{
+    height: 83.7vh;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('./imagens/background2.png');
+    background-size: cover;
+    overflow-y: scroll;
+}
+
+main .sample .promocao img{
+    margin: 10px 70px;
+    width: 300px;
+}
+
+main .sample::-webkit-scrollbar {
+    width: 30px;
+  }
+  
+main .sample::-webkit-scrollbar-track {
+    background: rgba(74, 46, 44, 1); 
+  }
+  
+main .sample::-webkit-scrollbar-thumb {
+    background: rgb(193, 150, 118);
+    border-radius: 50px;
+    
+  }
+  
+main .sample::-webkit-scrollbar-thumb:hover {
+    background: rgba(111, 81, 58, 1);
+  }
+
