@@ -82,8 +82,19 @@ body {
 }
 
 #navBar .div3 button{
+    transition: 0.5s;
     font-size: 20px;
     background-color: rgba(255, 240, 191, 1);
+    border: solid 3px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+#navBar .div3 button:hover{
+    color: rgba(255, 240, 191, 1);
+    transition: 0.5s;
+    font-size: 20px;
+    background-color: rgba(74, 46, 44, 1);
     border: solid 3px;
     border-radius: 50px;
     width: 80px;
