@@ -1,0 +1,77 @@
+*{
+    color: rgba(74, 46, 44, 1);
+}
+
+#catalogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#catalogo .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#catalogo .row .item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 240, 191, 1);
+    margin: 10px;
+    padding: 15px;
+    width: 320px;
+}
+
+#catalogo .row .item div img{
+    width: 150px;
+}
+
+#catalogo .row .item div ul{
+    margin: 3px;
+    padding: 0px 0px 0px 20px;
+}
+
+#catalogo .row .item div li{
+    margin: 3px;
+    font-size: 20px;
+}
+
+#catalogo .row .item div p{
+    margin: 3px;
+    font-size: 25px;
+}
+
+#catalogo .row .item div button{
+    border: none;
+    background-color: rgba(74, 46, 44, 1);
+    color: aliceblue;
+    font-size: 20px;
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+body::-webkit-scrollbar {
+    width: 30px;
+  }
+  
+body::-webkit-scrollbar-track {
+    background: rgba(74, 46, 44, 1); 
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background: rgb(193, 150, 118);
+    border-radius: 50px;
+    
+  }
+  
+body::-webkit-scrollbar-thumb:hover {
+    background: rgba(111, 81, 58, 1);
+  }
+  
