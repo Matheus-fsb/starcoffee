@@ -208,3 +208,75 @@ main .sample::-webkit-scrollbar-thumb:hover {
     height: 400px;
     padding: 20px;
 }
+
+.qg{
+    transition: 0.5s;
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 25px;
+    border-radius: 50px;
+    border: none;
+    background-color: #FFF0BF;
+    color: rgba(74, 46, 44, 1);
+}
+
+.qg:hover{
+    transition: 0.5s;
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 25px;
+    border-radius: 50px;
+    border: none;
+    background-color: #837c62;
+    color: rgba(74, 46, 44, 1);
+}
+
+#direita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#direita .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#direita .row .item{
+    margin: 5px;
+}
+
+#direita .row .item{
+    transition: 0.5s;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #FFF0BF;
+    color: rgba(74, 46, 44, 1);
+    border: none;
+    font-size: 15px;
+}
+
+#direita .row .item:hover{
+    transition: 0.5s;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #837c62;
+    color: rgba(74, 46, 44, 1);
+    border: none;
+    font-size: 15px;
+}
+
+#centro img{
+    width: 100px;
+}
