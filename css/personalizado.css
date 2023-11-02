@@ -197,3 +197,14 @@ main .sample::-webkit-scrollbar-thumb:hover {
     text-decoration: none;
   }
 
+#caixa_resultados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF0BF;
+    border-radius: 30px;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+}
