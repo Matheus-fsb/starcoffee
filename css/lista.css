@@ -1,0 +1,131 @@
+#content{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin: 15px;
+}
+
+#content #dados{
+    background-color: rgba(255, 240, 191, 1);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 74vh;
+}
+
+#content #dados p{
+    color: rgba(74, 46, 44, 1);
+    font-size: 35px;
+    margin: 0px;
+}
+
+#content #dados #metodopay{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 2px rgba(74, 46, 44, 1);
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+#content #dados #metodopay p{
+    font-size: 20px;
+}
+
+#content #dados #local{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 2px rgba(74, 46, 44, 1);
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+#content #dados #local input{
+    border: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#content #dados #local p{
+    font-size: 20px;
+}
+
+#content #dados .info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 2px rgba(74, 46, 44, 1);
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+#content #dados .info input{
+    border: none;
+    margin-left: 20px;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+#content #dados .info p{
+    font-size: 20px;
+}
+
+#content #dados #metodopay select{
+    margin-left: 20px;
+    width: 200px;
+    text-align: center;
+    border: none;
+    background-color: rgba(74, 46, 44, 1);
+    height: 30px;
+    font-size: 20px;
+    color: rgba(255, 240, 191, 1);
+}
+
+#content #carrinho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#content #carrinho img{
+    width: 400px;
+    margin: 30px;
+}
+
+#content #carrinho button{
+    transition: 0.5s;
+    display: flex;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(111, 81, 58, 1);
+    color: rgba(255, 240, 191, 1);
+    border: none;
+}
+
+#content #carrinho button:hover{
+    transition: 0.5s;
+    display: flex;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(176, 132, 98);
+    color: rgba(255, 240, 191, 1);
+    border: none;
+}
